@@ -44,7 +44,6 @@ Console.WriteLine("-------------------------------------------------------------
                 {
                     Console.WriteLine("Digite uma opção valída");
                     Console.ReadKey();
-                    Mostrar();
                     return;
                 }
 
@@ -61,7 +60,7 @@ Console.WriteLine("-------------------------------------------------------------
             {
                 Console.WriteLine("Digite uma opção valida");
                 Console.ReadKey();
-                Mostrar();
+                return;
             }
         }
 
